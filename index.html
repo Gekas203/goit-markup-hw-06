@@ -394,7 +394,7 @@
                 </p>
                 <form class="sub-form">
                     <label class="sub-label">
-                        <input class="sub-input" type="email" name="email" placeholder="E-mail">
+                        <input class="sub-input" required type="email" name="email" placeholder="E-mail">
                     </label>
                     <button class="sub-btn" type="submit">
                         <svg class="sub-svg" width="24" height="24">
@@ -415,12 +415,12 @@
                     <use href="./images/close.svg#icon-close"></use>
                 </svg>
             </button>
-            <p class="backdrop-text"></p>
+            <p class="backdrop-text">Leave your contacts and we will call you back</p>
             <form class="backdrop-form">
                 <div class="backdrop-form-container">
                     <label class="backdrop-label" for="user-name">Name</label>
                     <div class="backdrop-input-container">
-                        <input class="backdrop-input" type="text" id="user-name" name="user-name">
+                        <input class="backdrop-input" required type="text" id="user-name" name="user-name">
                         <svg class="backdrop-svg" width="18" height="24">
                             <use href="./images/modal.svg#icon-person"></use>
                         </svg>
@@ -429,7 +429,7 @@
                 <div class="backdrop-form-container">
                     <label class="backdrop-label" for="user-phone">Phone</label>
                     <div class="backdrop-input-container">
-                        <input class="backdrop-input" type="text" id="user-phone" name="user-name">
+                        <input class="backdrop-input" required type="text" id="user-phone" name="user-name">
                         <svg class="backdrop-svg" width="18" height="24">
                             <use href="./images/modal.svg#icon-phone"></use>
                         </svg>
@@ -438,7 +438,7 @@
                 <div class="backdrop-form-container">
                     <label class="backdrop-label" for="user-mail">Email</label>
                     <div class="backdrop-input-container">
-                        <input class="backdrop-input" type="text" id="user-mail" name="user-name">
+                        <input class="backdrop-input" required type="text" id="user-mail" name="user-name">
                         <svg class="backdrop-svg" width="18" height="24">
                             <use href="./images/modal.svg#icon-mail"></use>
                         </svg>
@@ -450,7 +450,7 @@
                         cols="30" rows="10"></textarea>
                 </div>
                 <div class="third-backdrop-form-container">
-                    <input class="sedecond-backdrop-input visually-hidden" type="checkbox" id="user-privacy"
+                    <input class="sedecond-backdrop-input visually-hidden" required type="checkbox" id="user-privacy"
                         value="true" name="user-privacy">
                     <label class="second-backdrop-label" for="user-privacy">
                         <span class="backdrop-span">

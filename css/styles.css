@@ -838,6 +838,7 @@ body {
      align-items: center;
      justify-content: center;
      fill: transparent;
+     margin-right: 8px;
 }
 
 .sedecond-backdrop-input:checked + .second-backdrop-label span {
@@ -865,4 +866,6 @@ body {
      border: none;
      border-radius: 4px;
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     margin-left: auto;
+     margin-right: auto;
 }
