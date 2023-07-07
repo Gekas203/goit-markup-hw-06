@@ -394,7 +394,7 @@
                 </p>
                 <form class="sub-form">
                     <label class="sub-label">
-                        <input class="sub-input" type="text" name="email" type="email" placeholder="E-mail">
+                        <input class="sub-input" type="email" name="email" placeholder="E-mail">
                     </label>
                     <button class="sub-btn" type="submit">
                         <svg class="sub-svg" width="24" height="24">
@@ -407,6 +407,7 @@
         </div>
 
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
         <div class="backdrop-modal">
             <button class="backdrop-btn" type="button" data-modal-close>
@@ -414,6 +415,54 @@
                     <use href="./images/close.svg#icon-close"></use>
                 </svg>
             </button>
+            <p class="backdrop-text"></p>
+            <form class="backdrop-form">
+                <div class="backdrop-form-container">
+                    <label class="backdrop-label" for="user-name">Name</label>
+                    <div class="backdrop-input-container">
+                        <input class="backdrop-input" type="text" id="user-name" name="user-name">
+                        <svg class="backdrop-svg" width="18" height="24">
+                            <use href="./images/modal.svg#icon-person"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="backdrop-form-container">
+                    <label class="backdrop-label" for="user-name">Phone</label>
+                    <div class="backdrop-input-container">
+                        <input class="backdrop-input" type="text" id="user-name" name="user-name">
+                        <svg class="backdrop-svg" width="18" height="24">
+                            <use href="./images/modal.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="backdrop-form-container">
+                    <label class="backdrop-label" for="user-name">Email</label>
+                    <div class="backdrop-input-container">
+                        <input class="backdrop-input" type="text" id="user-name" name="user-name">
+                        <svg class="backdrop-svg" width="18" height="24">
+                            <use href="./images/modal.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="second-backdrop-form-container">
+                    <label class="backdrop-label" for="user-comment">Comment</label>
+                    <textarea class="backdrop-textarea" name="user-comment" id="user-comment" placeholder="Text input"
+                        cols="30" rows="10"></textarea>
+                </div>
+                <div class="third-backdrop-form-container">
+                    <input class="sedecond-backdrop-input visually-hidden" type="checkbox" id="user-privacy"
+                        value="true" name="user-privacy">
+                    <label class="second-backdrop-label" for="user-privacy">
+                        <span class="backdrop-span">
+                            <svg class="second-backdrop-svg" width="10" height="8">
+                                <use href="./images/modal.svg#icon-vector"></use>
+                            </svg>
+                        </span>
+                        <a class="backdrop-link link" href="">Privacy Policy</a>
+                    </label>
+                    <button class="second-backdrop-btn"></button>
+                </div>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
