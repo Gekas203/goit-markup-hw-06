@@ -840,7 +840,7 @@ body {
      fill: transparent;
 }
 
-.sedecond-backdrop-input:checked + .second-backdrop-label {
+.sedecond-backdrop-input:checked + .second-backdrop-label span {
      background-color: var(--input-bg);
      border: none;
      fill: var(--secobdary-bg-color);
