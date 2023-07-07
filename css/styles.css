@@ -713,7 +713,7 @@ body {
 
 .sub-input::placeholder {
      color: var(--main-bg-color);
-     padding-left: 16px;
+     
 }
 
 .sub-btn {
